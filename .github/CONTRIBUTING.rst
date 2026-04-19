@@ -16,7 +16,7 @@ Setting things up
       $ git clone https://github.com/<your username>/python-telegram-bot
       $ cd python-telegram-bot
 
-3. Add a track to the original repository:
+3. Add a remote for the original repository:
 
    .. code-block:: bash
 
@@ -90,13 +90,13 @@ Here's how to make a one-off code change.
    -  In addition, PTB uses some formatting/styling and linting tools in the pre-commit setup. Some of those tools also have command line tools that can help to run these tools outside of the pre-commit step. If you'd like to leverage that, please have a look at the `pre-commit config file`_ for an overview of which tools (and which versions of them) are used. For example, we use `Ruff`_ for linting and formatting.
 
    - Please ensure that the code you write is well-tested and that all automated tests still pass. We
-     have dedicated an `testing page`_ to help you with that.
+     have dedicated a `testing page`_ to help you with that.
 
    - Don't break backward compatibility.
 
    - Add yourself to the AUTHORS.rst_ file in an alphabetical fashion.
 
-   - If you want run style & type checks before committing run
+   - If you want to run style and type checks before committing, run
 
      .. code-block:: bash
 
